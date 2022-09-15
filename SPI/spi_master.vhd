@@ -17,7 +17,7 @@ entity SPI_master is
         MOSI    : out   std_logic;
         SCLK    : out   std_logic;
         CS1     : out   std_logic;
-        CS2     : out   std_logic;
+        CS2     : out   std_logic
     );
 end entity SPI_master;
 
