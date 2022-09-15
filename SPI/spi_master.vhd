@@ -30,7 +30,11 @@ begin
     -- clk generator
     sclk_gen : process(rst_n,clk) is
     begin
-    
+        if rst_n = '0' then
+        
+        elsif RISING_EDGE(clk) then
+        
+        end if;
     end process;
     
     -- main process where transactions occure
