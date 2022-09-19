@@ -20,7 +20,7 @@ entity SPI_master is
     port(
         clk     : in    std_logic;
         rst_n   : in    std_logic;
-        mode    : in    std_logic;
+        mode    : in    std_logic_vector(1 downto 0);
         D_in    : in    std_logic_vector(DATA_WIDTH-1 downto 0);
         DV      : in    std_logic;                                  -- DATA VALID INPUT
         MISO    : in    std_logic;
