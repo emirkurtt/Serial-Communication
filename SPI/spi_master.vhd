@@ -25,7 +25,7 @@ entity SPI_master is
         DV      : in    std_logic;                                  -- DATA VALID INPUT
         MISO    : in    std_logic;
         i_CS1   : in    std_logic;
-        i_CS2   : in    std_logic;
+        i_CS2   : in    std_logic;  
         MOSI    : out   std_logic;
         SCLK    : out   std_logic;
         Tx_busy : out   std_logic;
