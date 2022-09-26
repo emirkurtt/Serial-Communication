@@ -46,9 +46,9 @@ begin
     
     stimulus : process is
     begin
-        rst_n <= '1';
-        wait for 100 ns;
         rst_n <= '0';
+        wait for 100 ns;
+        rst_n <= '1';
         wait;
     end process;
 end architecture;
