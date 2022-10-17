@@ -16,7 +16,7 @@ entity PONG_game_generator is
         DE                          : in std_logic;                         -- Data Enable coming from VGA timing generator
         h_counter                   : in std_logic_vector(11 downto 0);     -- horizontal counter coming from VGA timing generator 
         v_counter                   : in std_logic_vector(11 downto 0);     -- vertical counter coming from VGA timing generator
-        rgb_out                     : out std_logic_vector(23 downto 0);
+        rgb_out                     : out std_logic_vector(23 downto 0)
     );
 end entity;
 
